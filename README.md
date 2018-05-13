@@ -23,11 +23,11 @@ modules like this.  In particular, the GCP Cloud Functions emulator.
 
 # Roadmap
 
-[ ]: Get a scalable record viewer microservice impl stood up.
-[ ]: Show off a record at all (completely fake).
-[ ]: Add authentication and authorization using a scalable IDaaS.
-[ ]: Specify APIs in use using Swagger / OAS 2.0.
-[ ]: Add a ton of fake records of the right format (compliant with API).
-[ ]: Load testing.
+[ ]: Get a scalable record viewer microservice impl stood up.  
+[ ]: Show off a record at all (completely fake).  
+[ ]: Add authentication and authorization using a scalable IDaaS.  
+[ ]: Specify APIs in use using Swagger / OAS 2.0.  
+[ ]: Add a ton of fake records of the right format (compliant with API).  
+[ ]: Load testing.  
 
 [devenv]: https://github.com/purinchu/rabornrecord-docker-devenv
