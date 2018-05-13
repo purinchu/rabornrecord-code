@@ -1,0 +1,9 @@
+{
+  "name": "rabornrecord-code",
+  "version": "0.1.0",
+  "description": "View your own record",
+  "main": "index.js",
+  "author": "Michael Pyne <mpyne@purinchu.net>",
+  "license": "MIT",
+  "private": false
+}
