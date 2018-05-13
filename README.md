@@ -17,7 +17,7 @@ same concepts would apply fairly equally.
 
 # Development Infrastructure
 
-See the separate [rabornrecord-docker-devenv](devenv) module for a simplistic
+See the separate [rabornrecord-docker-devenv][devenv] module for a simplistic
 Docker setup (Dockerfile and setup/run scripts) that are meant to support
 modules like this.  In particular, the GCP Cloud Functions emulator.
 
