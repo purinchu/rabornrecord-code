@@ -9,4 +9,8 @@ resources:
   memory_gb: 0.8
   disk_size_gb: 10 # minimum
 
+env_variables:
+  # Default Cloud Storage bucket
+  GCLOUD_STORAGE_BUCKET: rabornrecordviewer-records
+
 # automatic scaling is enabled by default
