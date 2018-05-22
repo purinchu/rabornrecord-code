@@ -2,8 +2,16 @@
   "name": "rabornrecord-code",
   "version": "0.1.0",
   "description": "View your own record",
-  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  },
   "author": "Michael Pyne <mpyne@purinchu.net>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "express": "4.16.3"
+  }
 }
