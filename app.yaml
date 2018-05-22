@@ -1,0 +1,12 @@
+# AppEngine configuration for the record viewer
+
+runtime: nodejs
+env: flex
+
+# constrain the resources requested per-instance
+resources:
+  cpu: 1
+  memory_gb: 0.8
+  disk_size_gb: 10 # minimum
+
+# automatic scaling is enabled by default
