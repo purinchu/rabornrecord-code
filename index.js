@@ -11,6 +11,19 @@ app.get('/', (req, res) => {
   res.status(200).json('{"name": "Foo"}');
 });
 
+app.all('/records/*', (req, res, next) => {
+  const auth = req.get('Authorization')
+
+  // TODO NOT SECURE, just here to test ability to guard with
+  // header check in newer version
+  if (!auth || auth !== 'Bearer Mw2esKHyImZ69OrW29t12Q') {
+    res.sendStatus(403);
+    return;
+  }
+
+  next();
+});
+
 app.get('/records/:id(\\d{10})', (req, res) => {
   storage
     .bucket(bucketName)
