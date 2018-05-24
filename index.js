@@ -21,7 +21,9 @@ app.get('/records/:id(\\d{10})', (req, res) => {
         console.error(err);
         return;
       }
-      res.json(contents);
+
+      // contents should already be JSON
+      res.type('json').send(contents);
     });
 });
 
